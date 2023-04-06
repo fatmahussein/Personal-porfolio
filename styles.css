@@ -26,7 +26,11 @@
     padding: 15px 0;
   }
 
-  a .navbar-brand {
+  a {
+    text-decoration: none;
+  }
+
+  .navbar-brand a {
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
     font-size: 20px;
@@ -34,10 +38,6 @@
     align-items: center;
     justify-content: center;
     color: #6070ff;
-  }
-
-  a {
-    text-decoration: none;
   }
 
   ul {
