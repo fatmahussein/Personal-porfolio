@@ -4,10 +4,16 @@
   * {
     margin: 0%;
     padding: 0%;
+    font-family: 'Poppins' , sans-serif;
+    box-sizing: border-box;
   }
-
+body{
+  background: #E5E5E5;
+}
   header {
     display: flex;
+    margin-bottom: -1%;
+    background: #ffff;
   }
 
   .heading {
@@ -15,7 +21,8 @@
     background-repeat: no-repeat;
     background-size: 100% 90%;
     border-bottom-left-radius: 50px;
-    height: 700px;
+    height: 557px;
+    background-color: #ffff;
   }
 
   nav {
@@ -26,7 +33,10 @@
     padding: 15px 0;
   }
 
-  a .navbar-brand {
+  a {
+    text-decoration: none;
+  }
+  .navbar-brand a{
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
     font-size: 20px;
@@ -35,11 +45,6 @@
     justify-content: center;
     color: #6070ff;
   }
-
-  a {
-    text-decoration: none;
-  }
-
   ul {
     list-style-type: none;
   }
@@ -71,6 +76,8 @@
   h1 {
     display: flex;
     font-size: 29px;
+    color: #172B4D;
+    
   }
 
   .connect {
@@ -84,4 +91,151 @@
     flex-direction: row;
     gap: 10px;
   }
+  /* works section */
+  .works{
+    padding-bottom: 20%;
+  }
+  .cards{
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    margin-top: 10%;
+    grid-gap: 2%;
+
+  }
+  .card{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: auto;
+    background-color: #ffff;
+    border-radius: 20px;
+    padding: 3%;
+  }
+  .dot{
+    width: 15px;
+    height: 15px;
+    background-color: #E5E5E5;
+    margin-top: 2%;
+    border-radius: 10px;
+  }
+  .left-block{
+    margin-top:2%;
+  }
+  h2{
+  color:  #172B4D;
+    font-family: 'Poppins' , sans-serif;
+    font-size: 38px;
+    font-weight: 900;
+
+  }
+  .list1{
+    display: flex;
+    gap: 15px;
+    font-family: 'Poppins' , sans-serif;
+    font-weight: 900;
+    margin-top: 2%;
+    color:  #7A869A;
+  }
+  .list1 #canopy{
+    color: #344563;
+  }
+  .p{
+    margin-top: 5%;
+    font-family: 'Poppins' , sans-serif;
+  }
+  .list2{
+    display: flex;
+    gap:4%;
+    margin-top: 10%;
+  }
+  .badge{
+    background-color: #ededf4;
+    color: #6070ff;
+    padding: 4px 10px;
+    text-align: center;
+    border-radius: 8px;
+    font-family: 'Poppins' , sans-serif;
+    font-weight: 600;
+  }
+  .see-project{
+    margin-top: 10%;
+    margin-bottom: 3%;
+    padding-bottom: 2%;
+    background-color: #ffff;
+    color: #6070ff;
+    padding: 12px 26px;
+    text-align: center;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: 'Poppins' , sans-serif;
+    font-weight: 600;
+  }
+  .about-myself{
+    background-color: white;
+   padding-bottom: 10%;
+    border-top-right-radius: 15%;
+  }
+  .container-myself{
+    padding: 24px 7%;
+    display: flex;
+    row-gap: 20px;
+    flex-direction: column;
+    padding-top: 90px;
+  }
+  h3{
+    font-size: 47px;
+    font-weight: 900;
+  }
+  .resume{
+    background-color: #ffff;
+    color: #6070ff;
+    padding: 12px 6px;
+    width: 164px;
+    text-align: center;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: 'Poppins' , sans-serif;
+    font-weight: 600;
+  }
+  #paragraph{
+    font-family: 'Poppins' , sans-serif;
+  }
+  .language{
+    padding: 0px 7%;
+   display: flex;
+   row-gap: 10px;
+   flex-direction: column;
+ }
+  h4{
+    font-size: 27px;
+    font-weight: 900;
+  }
+  .list{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .badge1{
+    background-color: #F7F7F9;
+    display: flex;
+    gap: 2%;
+      margin-left: auto;
+    margin-bottom: 2%;
+    margin-right: auto;
+    width:100%;
+    padding: 24px 10px;
+    text-align: center;
+    border-radius: 8px;
+    font-family: 'Poppins' , sans-serif;
+    font-weight: 600;
+  }
+  h5{
+    font-size: 26px;
+  }
+  h6{
+    font-size: 26px;
+  }
+
 }
