@@ -353,4 +353,31 @@
     margin-top: 2%;
     margin-left: 10%;
   }
+.navbar{
+  display: none;
+}
+}
+
+@media screen and (min-width: 768px) {
+.hamburger{
+  display: none;
+}
+.navbar{
+  display: flex;
+ gap: 25px;
+ color: #344563;
+ font-size: 15px;
+}
+.heading{
+  background: url(images/Header.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: #fff;
+}
+.header-container{
+  padding: 170px 17%;
+}
+.p{
+  margin-top: 0%;
+}
 }
